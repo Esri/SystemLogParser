@@ -3,6 +3,8 @@
 ### Date: 2022/09/08
 
 -------------------------------
+![System Log Parser GUI]([/assets/images/SystemLogsGUI_ArcGISServer_web_small.png))
+-------------------------------
 
 #### Description 
 System Log Parser is an ArcGIS for Server (10.1+) log query and analyzer tool to
