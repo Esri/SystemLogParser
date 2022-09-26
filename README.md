@@ -3,7 +3,7 @@
 ### Date: 2022/09/08
 
 -------------------------------
-![System Log Parser GUI](/assets/images/SystemLogsGUI_ArcGISServer_web_small.png))
+![System Log Parser GUI](/assets/images/SystemLogsGUI_ArcGISServer_web_small.png)
 -------------------------------
 
 #### Description 
