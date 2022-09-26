@@ -46,6 +46,14 @@ ArcGIS Monitor for data capture.
  - *Not relevant if logs are consumed directly from the file system (e.g. reading the local disk or via CIFS share)
 
 -------------------------------
+#### Esri Community Articles on Using System Log Parser 
+- [ArcGIS Enterprise Analysis with System Log Parser's Optimized Analysis Type/](https://community.esri.com/t5/implementing-arcgis-blog/arcgis-enterprise-analysis-with-system-log-parser/ba-p/1189005)
+- [Automating System Log Parser from the Windows Command Line]([https://community.esri.com/t5/implementing-arcgis-blog/arcgis-enterprise-analysis-with-system-log-parser/ba-p/1189005)](https://community.esri.com/t5/implementing-arcgis-blog/automating-system-log-parser-from-the-windows/ba-p/1195294)
+- [ArcGIS Enterprise Analysis with System Log Parser's ServiceDetails Analysis Type](https://community.esri.com/t5/implementing-arcgis-blog/arcgis-enterprise-analysis-with-system-log-parser/ba-p/1198115)
+- [System Log Parser - Statistics and Service Optimization](https://community.esri.com/t5/implementing-arcgis-blog/system-log-parser-statistics-and-service/ba-p/886389)
+- [ArcGIS Server Tuning and Optimization with System Log Parser
+](https://community.esri.com/t5/implementing-arcgis-blog/arcgis-server-tuning-and-optimization-with-system/ba-p/886361)
+-------------------------------
 
 ##### CHANGELOG
 
