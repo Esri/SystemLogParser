@@ -4,7 +4,7 @@
 
 -------------------------------
 
-Description 
+#### Description 
 System Log Parser is an ArcGIS for Server (10.1+) log query and analyzer tool to
 help you quickly quantify the GIS usage in your deployment.
 When run, it connects to an ArcGIS for Server instance on port 443/6443/6080/80 as a publisher
@@ -18,13 +18,14 @@ ArcGIS Monitor for data capture.
 
 -------------------------------
 
-System Requirements
+##### System Requirements
 64bit Windows Operating System:
 Windows (Workstation): 7, 8*, 8.1**, 10**
 Windows (Server): 2008, 2012, 2016, 2019, 2022
 Processor: AMD64/Intel64
 RAM: 8GB
 Disk Space: 2GB free when using the new Optimized Analysis Type 
+
 Security Protocol***: TLS 1.0, TLS 1.1, TLS 1.2, or TLS 1.3
 Microsoft .NET Framework 4.8 (Full)
 Publisher (or administrative) access to ArcGIS Server's REST API Admin endpoint in order to query the logs
@@ -39,19 +40,19 @@ Information Services Manager)
 
 -------------------------------
 
-System Recommendations:
-	Microsoft Excel 2010 or higher (or appropriate xlsx viewer)
-    RAM: 16GB
-	Disk Space: 6GB free when using the new Optimized Analysis Type 
-    Security Protocol*: TLS 1.2 or TLS 1.3
-    If performing Microsoft IIS log analysis, it is recommended to have the Log File Rollover Schedule set to Hourly (from the Internet Information 
-    Services Manager); Hourly creates more, smaller files but allows for a finer grain search 
-    If querying through the web, an user with administrative access is recommended as they can gather details on all service types
-    *Not relevant if logs are consumed directly from the file system (e.g. reading the local disk or via CIFS share)
+##### System Recommendations:
+Microsoft Excel 2010 or higher (or appropriate xlsx viewer)
+RAM: 16GB
+Disk Space: 6GB free when using the new Optimized Analysis Type 
+Security Protocol*: TLS 1.2 or TLS 1.3
+If performing Microsoft IIS log analysis, it is recommended to have the Log File Rollover Schedule set to Hourly (from the Internet Information 
+Services Manager); Hourly creates more, smaller files but allows for a finer grain search 
+If querying through the web, an user with administrative access is recommended as they can gather details on all service types
+*Not relevant if logs are consumed directly from the file system (e.g. reading the local disk or via CIFS share)
 
 -------------------------------
 
-* CHANGELOG
+##### CHANGELOG
 
 Build 0.12.17.0 (Prerelease)
 1. Added a listing of the IsSchemaLocking property for each service (where is exists) on the "Site Details" worksheet; This worksheet is found through: the ServiceDetails Analysis Type, enabling the "Add Service Details to Report (Enhanced Site Report)" option in the GUI, or setting the "-esr" parameter to true on the command-line; This worksheet is not available with the Optimized Analysis Type
