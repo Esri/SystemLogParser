@@ -35,14 +35,13 @@ ArcGIS Monitor for data capture.
 > 	- ***Not relevant if logs are consumed directly from the file system (e.g. reading the local disk or via CIFS share)
 
 ##### System Recommendations:
-> Microsoft Excel 2010 or higher (or appropriate xlsx viewer)
-> RAM: 16GB
-> Disk Space: 6GB free when using the new Optimized Analysis Type 
-> Security Protocol*: TLS 1.2 or TLS 1.3
-> If performing Microsoft IIS log analysis, it is recommended to have the Log File Rollover Schedule set to Hourly (from the Internet Information 
-> Services Manager); Hourly creates more, smaller files but allows for a finer grain search 
-> If querying through the web, an user with administrative access is recommended as they can gather details on all service types
-> *Not relevant if logs are consumed directly from the file system (e.g. reading the local disk or via CIFS share)
+> 	- Microsoft Excel 2010 or higher (or appropriate xlsx viewer)
+> 	- RAM: 16GB
+> 	- Disk Space: 6GB free when using the new Optimized Analysis Type 
+> 	- Security Protocol*: TLS 1.2 or TLS 1.3
+> 	- If performing Microsoft IIS log analysis, it is recommended to have the Log File Rollover Schedule set to Hourly (from the Internet Information Services Manager); Hourly creates more, smaller files but allows for a finer grain search 
+> 	- If querying through the web, an user with administrative access is recommended as they can gather details on all service types
+> 	- *Not relevant if logs are consumed directly from the file system (e.g. reading the local disk or via CIFS share)
 
 -------------------------------
 
@@ -51,7 +50,6 @@ ArcGIS Monitor for data capture.
 Build 0.12.17.0 (Prerelease)
 1. Added a listing of the IsSchemaLocking property for each service (where is exists) on the "Site Details" worksheet; This worksheet is found through: the ServiceDetails Analysis Type, enabling the "Add Service Details to Report (Enhanced Site Report)" option in the GUI, or setting the "-esr" parameter to true on the command-line; This worksheet is not available with the Optimized Analysis Type
 
-1. Added Wait Time and 
 Build 0.12.16.0 (Prerelease)
 1. Added Wait Time and Instance Creation Time statistics to the TextFile report
 2. Fixed an issue with the JSON Report Type where the complete output would not be available
