@@ -19,11 +19,11 @@ The command-line version of System Log Parser (slp.exe) is used by the current r
 ArcGIS Monitor for data capture.
 
 ##### System Requirements
- 	- 64bit Windows Operating System:
-		- Windows (Workstation): 7, 8*, 8.1**, 10**
-		- Windows (Server): 2008, 2012, 2016, 2019, 2022
-	- Processor: AMD64/Intel64
-		- RAM: 8GB
+- 64bit Windows Operating System:
+	- Windows (Workstation): 7, 8*, 8.1**, 10**
+	- Windows (Server): 2008, 2012, 2016, 2019, 2022
+- Processor: AMD64/Intel64
+	- RAM: 8GB
  	- Disk Space: 2GB free when using the new Optimized Analysis Type 
  	- Security Protocol***: TLS 1.0, TLS 1.1, TLS 1.2, or TLS 1.3
  	- Microsoft .NET Framework 4.8 (Full)
