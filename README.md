@@ -37,13 +37,13 @@ ArcGIS Monitor for data capture.
  - ***Not relevant if logs are consumed directly from the file system (e.g. reading the local disk or via CIFS share)
 
 #### System Recommendations:
- 	- Microsoft Excel 2010 or higher (or appropriate xlsx viewer)
- 	- RAM: 16GB
- 	- Disk Space: 6GB free when using the new Optimized Analysis Type 
- 	- Security Protocol*: TLS 1.2 or TLS 1.3
- 	- If performing Microsoft IIS log analysis, it is recommended to have the Log File Rollover Schedule set to Hourly (from the Internet Information Services Manager); Hourly creates more, smaller files but allows for a finer grain search 
- 	- If querying through the web, an user with administrative access is recommended as they can gather details on all service types
- 	- *Not relevant if logs are consumed directly from the file system (e.g. reading the local disk or via CIFS share)
+ - Microsoft Excel 2010 or higher (or appropriate xlsx viewer)
+ - RAM: 16GB
+ - Disk Space: 6GB free when using the new Optimized Analysis Type 
+ - Security Protocol*: TLS 1.2 or TLS 1.3
+ - If performing Microsoft IIS log analysis, it is recommended to have the Log File Rollover Schedule set to Hourly (from the Internet Information Services Manager); Hourly creates more, smaller files but allows for a finer grain search 
+ - If querying through the web, an user with administrative access is recommended as they can gather details on all service types
+ - *Not relevant if logs are consumed directly from the file system (e.g. reading the local disk or via CIFS share)
 
 -------------------------------
 
