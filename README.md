@@ -1,6 +1,6 @@
-System Log Parser\n
-Version 0.12.17.0\r\n
-Date: 2022/09/08
+# System Log Parser
+## Version 0.12.17.0
+### Date: 2022/09/08
 
 -------------------------------
 
