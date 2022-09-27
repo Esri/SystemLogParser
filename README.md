@@ -18,6 +18,9 @@ Microsoft IIS, Apache Tomcat, Amazon ELB/ALB, Amazon CloudFront and Microsoft Az
 The command-line version of System Log Parser (slp.exe) is used by the current releases of 
 ArcGIS Monitor for data capture.
 
+### Download Latest Release
+[System Log Parser Download](/binaries/latest/SystemLogParser.zip)
+
 #### System Requirements
 - 64bit Windows Operating System:
 	- Windows (Workstation): 7, 8*, 8.1**, 10**
