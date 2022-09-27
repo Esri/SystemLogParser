@@ -19,7 +19,7 @@ The command-line version of System Log Parser (slp.exe) is used by the current r
 ArcGIS Monitor for data capture.
 
 ### Download Latest Release
-[System Log Parser Download](/binaries/latest/SystemLogParser.zip)
+[System Log Parser Download](/AaronPLopez/SystemLogParser/raw/main/binaries/latest/SystemLogParser.zip)
 
 #### System Requirements
 - 64bit Windows Operating System:
