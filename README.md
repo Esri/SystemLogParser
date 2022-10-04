@@ -1,6 +1,6 @@
 # System Log Parser
 ## Version 0.12.18.0
-### Date: 2022/09/08
+### Date: 2022/10/04
 
 -------------------------------
 ![System Log Parser GUI](/assets/images/SystemLogsGUI_ArcGISServer_web_small.png)
