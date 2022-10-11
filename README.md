@@ -60,6 +60,11 @@ ArcGIS Monitor for data capture.
 
 ##### CHANGELOG
 
+Build 0.12.18.0 (Prerelease)
+1. Added the build number to the title bar of the window's GUI
+2. Changed the System Log Parser URL link on the About screen to https://github.com/AaronPLopez/SystemLogParser
+3. Updated the Title and Product Assembly Information for all SLP DLLs and Exes
+
 Build 0.12.17.0 (Prerelease)
 1. Added a listing of the IsSchemaLocking property for each service (where is exists) on the "Site Details" worksheet; This worksheet is found through: the ServiceDetails Analysis Type, enabling the "Add Service Details to Report (Enhanced Site Report)" option in the GUI, or setting the "-esr" parameter to true on the command-line; This worksheet is not available with the Optimized Analysis Type
 
