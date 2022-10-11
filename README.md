@@ -27,17 +27,17 @@ ArcGIS Monitor for data capture.
 	- Windows (Server): 2008, 2012, 2016, 2019, 2022
 - Processor: AMD64/Intel64
 - RAM: 8GB
- - Disk Space: 2GB free when using the new Optimized Analysis Type 
- - Security Protocol***: TLS 1.0, TLS 1.1, TLS 1.2, or TLS 1.3
- - Microsoft .NET Framework 4.8 (Full)
- - Publisher (or administrative) access to ArcGIS Server's REST API Admin endpoint in order to query the logs
- - ArcGIS Server log level set to FINE (from within the ArcGIS Server Manager) before using this tool
- - A deployment running ArcGIS Server 10.1 or higher
- - If performing Web (IIS) log analysis, it is recommended to have the Log File Rollover Schedule set to Hourly or Daily (from the Internet Information Services Manager)
+- Disk Space: 2GB free when using the new Optimized Analysis Type 
+- Security Protocol***: TLS 1.0, TLS 1.1, TLS 1.2, or TLS 1.3
+- Microsoft .NET Framework 4.8 (Full)
+- Publisher (or administrative) access to ArcGIS Server's REST API Admin endpoint in order to query the logs
+- ArcGIS Server log level set to FINE (from within the ArcGIS Server Manager) before using this tool
+- A deployment running ArcGIS Server 10.1 or higher
+- If performing Web (IIS) log analysis, it is recommended to have the Log File Rollover Schedule set to Hourly or Daily (from the Internet Information Services Manager)
 
- - *If using Windows 8, .NET Framework 3.5 (in addition to 4.8) must be enabled per Microsoft documentation
- - **If using Windows 8.1 or Windows 10, .NET Framework 3.5 (in addition to 4.8) must be enabled per Microsoft documentation
- - ***Not relevant if logs are consumed directly from the file system (e.g. reading the local disk or via CIFS share)
+- *If using Windows 8, .NET Framework 3.5 (in addition to 4.8) must be enabled per Microsoft documentation
+- **If using Windows 8.1 or Windows 10, .NET Framework 3.5 (in addition to 4.8) must be enabled per Microsoft documentation
+- ***Not relevant if logs are consumed directly from the file system (e.g. reading the local disk or via CIFS share)
 
 #### System Recommendations:
  - Microsoft Excel 2010 or higher (or appropriate xlsx viewer)
