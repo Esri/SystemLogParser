@@ -1,6 +1,6 @@
 # System Log Parser
-## Version 0.12.18.0
-### Date: 2022/10/04
+## Version 0.12.19.0
+### Date: 2022/11/08
 
 -------------------------------
 ![System Log Parser GUI](/assets/images/SystemLogsGUI_ArcGISServer_web_small.png)
@@ -59,6 +59,12 @@ ArcGIS Monitor for data capture.
 -------------------------------
 
 ##### CHANGELOG
+
+Build 0.12.19.0 (Prerelease)
+1. Improved request breakdown analysis has been added to IIS log parsing for capabilities such as VersionManagementServer, UtilityNetworkServer and LRServer
+2. Added a command-line option to slp.exe called "fsp" to force server parsing of logs even if the passed in URL has indications of a Portal instance; the default is false; active with: "-fsp true"
+3. For the "Site Details" worksheet, the Service Name has been changed from the REST Admin link to just the name of the service to prevent Excel from blocking all the contents when it is in read-only mode
+4. When using a pre-generated token with an ArcGIS Server (Web) log query from the GUI, the tool tip added clarification to create one that is Webapp URL based: "Manually provide an ArcGIS Server Token or ArcGIS Portal Token (Webapp URL based)"; for example, from https://myserver.domain.com/portal/sharing/rest/generateToken, select "Webapp URL" (where the URL would be something like: https://myserver.domain.com/portal); the command-line help has also been clarified
 
 Build 0.12.18.0 (Prerelease)
 1. Added the build number to the title bar of the window's GUI
