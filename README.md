@@ -1,6 +1,6 @@
 # System Log Parser
-## Version 0.12.19.0
-### Date: 2022/11/08
+## Version 0.12.20.0
+### Date: 2022/11/22
 
 -------------------------------
 ![System Log Parser GUI](/assets/images/SystemLogsGUI_ArcGISServer_web_small.png)
@@ -59,6 +59,15 @@ ArcGIS Monitor for data capture.
 -------------------------------
 
 ##### CHANGELOG
+
+Build 0.12.20.0 (Prerelease)
+1. Fixed an issue where a malformed requestID GUID in an ArcGIS Server log entry could cause System Log Parser to stop reading the logs over the web 
+2. For the "Elapsed Time - All Resources" worksheet in the Complete report, the auto-fit column width for all columns has been removed to make filtering easier (specifically for the "Query String (Decoded)" and "Request Url" columns); several columns like "Date Time (Local Time)", "Epoch Time" and "Resource" still have the auto-fit sizing 
+3. For IIS, Azure and Tomcat, the default "ArcGIS Type" value has been changed from "-" to ""
+4. For the "Elapsed Time - All Resources" worksheet in the Complete report, the "?-" string has been removed from the end of the "Request Url" column
+5. For the "Elapsed Time - All Resources" worksheet in the Complete report, if a token key/value pair was detected in the query string, it is now seperated out into its own column, this makes it easier to read the other data in the query string
+6. For (some) performance and load testing support, the Complete report has been exteneded with the following additional columns: Test_TestPlanName, Test_ThreadNumber, Test_PortalMember, Test_TransactionName; many testing frameworks have the ability to add these informative (but benign) components to requests in a test; if these key/value pairs are detected in the querystring (IIS, ALB/ELB and Azure log sources), they are extracted out into their own column to assist with filtering and analysis
+7. For the "Elapsed Time - All Resources" worksheet in the Complete report, the "ALB TargetGroup" and "CloudFront Edge Result Type" columns have been removed due to low usage
 
 Build 0.12.19.0 (Prerelease)
 1. Improved request breakdown analysis has been added to IIS log parsing for capabilities such as VersionManagementServer, UtilityNetworkServer and LRServer
