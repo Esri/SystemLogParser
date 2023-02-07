@@ -1,6 +1,6 @@
 # System Log Parser
-## Version 0.12.20.0
-### Date: 2022/11/22
+## Version 0.12.21.0
+### Date: 2023/02/07
 
 -------------------------------
 ![System Log Parser GUI](/assets/images/SystemLogsGUI_ArcGISServer_web_small.png)
@@ -59,6 +59,17 @@ ArcGIS Monitor for data capture.
 -------------------------------
 
 ##### CHANGELOG
+
+Build 0.12.21.0 (Prerelease)
+1. For the "Arrival Rate" worksheet (ArcGIS Server log sources), the total number of request arrivals is now listed at the top; this is an important statistic since the tabular view of the data will only show 200,000 rows (for performance and practical reasons) so understanding the original total is valuable; this total is available for the WithOverviewCharts, Complete and Optimized reports
+2. For the ArcGIS Server ErrorsOnly reports (SpreadSheet or Text file output), the word "Errors" is not inserted into the filename of the generated report
+3. Fixed an issue with the resource regular expression where you could not capture entries for a particular service name when using the Optimized report with an ArcGIS Server Web log source
+4. Unified the tooltip text for the Regular Expression Pattern input box in the GUI
+5. Changed the worksheet "Arrival Rate" to "Arrival Rate Per User"
+6. Added a worksheet called "Arrival Rate Per Service" which shows the amount of requests for services (per second) but does not additionally break it down by user
+7. Fixed issue in the GUI where toggling the "Add Service Details to Report (Enhanced Site Report)" option in the "ArcGIS Server Log Query (Web)" panel would force the Analysis Type to reset to Simple
+8. Consolidated messages listed on ErrorsOnly reports by removing the user field from the internal error message dictionary (the user column was not being shown)
+9. Updated the Copyright to 2023 for System Log Parser DLLs and EXEs
 
 Build 0.12.20.0 (Prerelease)
 1. Fixed an issue where a malformed requestID GUID in an ArcGIS Server log entry could cause System Log Parser to stop reading the logs over the web 
