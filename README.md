@@ -1,6 +1,6 @@
 # System Log Parser
-## Version 0.12.21.0
-### Date: 2023/02/07
+## Version 0.12.21.1
+### Date: 2023/02/08
 
 -------------------------------
 ![System Log Parser GUI](/assets/images/SystemLogsGUI_ArcGISServer_web_small.png)
@@ -59,6 +59,9 @@ ArcGIS Monitor for data capture.
 -------------------------------
 
 ##### CHANGELOG
+
+Build 0.12.21.1 (Prerelease)
+1. Fixed issue where not all EXEs were properly signed
 
 Build 0.12.21.0 (Prerelease)
 1. For the "Arrival Rate" worksheet (ArcGIS Server log sources), the total number of request arrivals is now listed at the top; this is an important statistic since the tabular view of the data will only show 200,000 rows (for performance and practical reasons) so understanding the original total is valuable; this total is available for the WithOverviewCharts, Complete and Optimized reports
