@@ -15,8 +15,6 @@ analyzes the information then produces a spreadsheet version of the data that
 summarizes the service statistics.
 However, System Log Parser can also read access logs from other sources such as:
 Microsoft IIS, Apache Tomcat, Amazon ELB/ALB, Amazon CloudFront and Microsoft Azure.
-The command-line version of System Log Parser (slp.exe) is used by the current releases of 
-ArcGIS Monitor for data capture.
 
 ### Download Latest Release
 [System Log Parser Download](../..//raw/main/binaries/latest/SystemLogParser.zip)
