@@ -1,6 +1,6 @@
 # System Log Parser
-## Version 0.12.21.1
-### Date: 2023/02/08
+## Version 0.12.22.0
+### Date: 2023/02/27
 
 -------------------------------
 ![System Log Parser GUI](/assets/images/SystemLogsGUI_ArcGISServer_web_small.png)
@@ -57,6 +57,21 @@ Microsoft IIS, Apache Tomcat, Amazon ELB/ALB, Amazon CloudFront and Microsoft Az
 -------------------------------
 
 ##### CHANGELOG
+
+Build 0.12.22.0 (Prerelease)
+1. For reports of type ServiceDetails, the internal counting logic had been adjusted to better differentiate between the service instance types (e.g. dedicated, hosted, shared).
+   This was done to help validate the same counts on the "Site Details" worksheet and the "Service Provider Stats" table and the bottom of the "Summary" worksheet.
+   A few things to keep in mind, to help keep things simple, even though it is a dedicated service, System Log Parser labels "System/DynamicMappingHost.MapServer" as "Shared" since it is responsible for handling requests for shared services.
+   Instances minimiums and maximums for Shared and Hosted services are set to 0 in the report...for some ArcGIS Server releases, the REST Admin API may list values greater than 0 (in such cases, these values are an artifact that do *not* have a functional impact to the service).
+   Going forward, System services will be listed as System_Dedicated and Utility services will be listed as Utilities_Dedicated.
+2. Several columns in the "Site Details" worksheet have been group closer together for easier analysis (e.g. "Provider", "Instance Type", "Min Instances (Node)", "Max Instances (Node)", "Configured State")
+3. In the GUI, the size of the LogsLocation field (for the AGSFS) has been increased from 300 characters to 3000
+4. For listing the help in the command-line from slp.exe, the following commands can now be used: slp.exe, slp.exe -h, slp.exe --h and slp.exe -help
+5. File signing now includes System Log Parser EXEs *and* DLLs
+6. Corrected typo where the Header comments for the "Server Timeout" worksheet table lists the column as wait times
+7. Adjusted the Header comments for the Service Requests column (in the "Wait Time (Queue Time)", "Instance Creation Time", "Server Timeout" and "Wait Time Expired" worksheets) to denote the values are for successful requests; in some situations, a higher number of wait times for a services can be listed than service requests; in such a case, the higher count of wait time suggests than many requests failed and were never logged as "successful"
+8. Added a Report Name text field in the GUI for ArcGIS Server log queries (File System); when scanning large sites (multiple backend machines) over the network (e.g., several log locations), the report name that is automatically generated can become quite large and may have issues in Windows; this allows a convenient way to shorten it from the GUI
+9. Fixed issue when performing ArcGIS Server log queries (File System) where the passed in regular expression string would remove all services from the "Wait Time (Queue Time)" worksheet instead of only showing values for the specific service of interest
 
 Build 0.12.21.1 (Prerelease)
 1. Fixed issue where not all EXEs were properly signed
