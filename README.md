@@ -58,6 +58,14 @@ Microsoft IIS, Apache Tomcat, Amazon ELB/ALB, Amazon CloudFront and Microsoft Az
 
 ##### CHANGELOG
 
+Build 0.12.23.0 (Prerelease)
+1. For Spreadsheet reports that pull log data from a local or network path, a "Log Location" field containing the passed in value has been added
+2. The command-line option of validate is now true by default; when running slp.exe, for previous versions, this had to be set to true in order to see any messages or warnings that were printed to the console
+3. Added a wait time minimum option to slp.exe for ignoring entries less than the passed in value; the default value is 1 (ms); this can be changed with the "-wtm" flag and the passed in value is assumed to be in milliseconds; for example: "-wtm 2" would be 0.002 seconds and "-wtm 2000" would be 2.0 seconds
+4. Fixed issue for ArcGIS Server File System log queries where intermediate elapsed time entries were being included in the statistics by resource summary
+5. For ArcGIS Server log source queries using an Analysis Type of Optmized, the worksheet "Arrival Rate" has been changed to "Arrival Rate Per User"
+6. For ArcGIS Server log source queries using an Analysis Type of Optmized, a worksheet called "Arrival Rate Per Service" has been added which shows the amount of requests for services (per second)...this table does not additionally break down the data by user and instead just focuses on what was being requested at the service-level
+
 Build 0.12.22.0 (Prerelease)
 1. For reports of type ServiceDetails, the internal counting logic had been adjusted to better differentiate between the service instance types (e.g. dedicated, hosted, shared).
    This was done to help validate the same counts on the "Site Details" worksheet and the "Service Provider Stats" table and the bottom of the "Summary" worksheet.
