@@ -1,8 +1,11 @@
 # System Log Parser
-## Version 0.12.23.0
-### Date: 2023/03/16
+## Version 0.12.24.0
+### Date: 2023/05/17
 
 -------------------------------
+### Download Latest Release
+[System Log Parser Download](../..//raw/main/binaries/latest/SystemLogParser.zip)
+
 ![System Log Parser GUI](/assets/images/SystemLogsGUI_ArcGISServer_web_small.png)
 -------------------------------
 
@@ -15,9 +18,6 @@ analyzes the information then produces a spreadsheet version of the data that
 summarizes the service statistics.
 However, System Log Parser can also read access logs from other sources such as:
 Microsoft IIS, Apache Tomcat, Amazon ELB/ALB, Amazon CloudFront and Microsoft Azure.
-
-### Download Latest Release
-[System Log Parser Download](../..//raw/main/binaries/latest/SystemLogParser.zip)
 
 #### System Requirements
  - 64bit Windows Operating System:
@@ -57,6 +57,13 @@ Microsoft IIS, Apache Tomcat, Amazon ELB/ALB, Amazon CloudFront and Microsoft Az
 -------------------------------
 
 ##### CHANGELOG
+
+Build 0.12.24.0 (Prerelease)
+1. For (Analysis Type) Complete reports, the Path column has been added to the table on the "Elapsed Time - All Resources" worksheet
+2. Fixed an issue with the (new) "Arrival Rate Per Service" worksheet to group specifically by service name; the previous build used the service name with capability so instead of counting requests for "PostgreSQL/Branch_Spatial1", the table would separate it by "PostgreSQL/Branch_Spatial1/FeatureServer", "PostgreSQL/Branch_Spatial1/MapServer" and "PostgreSQL/Branch_Spatial1/VersionManagementServer"; while this was correct, that extra separation was not originally intended
+3. In addition to "Total Arrival Request Entries" counts on the arrival worksheets, "Data Rows Captured" are now listed as well
+4. For Simple, WithOverviewCharts, Complete and Optimized reports, the data Start Time and End Time (in Coordinated Universal Time) are now listed
+5. Improved request breakdown analysis has been added to IIS log parsing for capabilities such as NetworkDiagramServer
 
 Build 0.12.23.0 (Prerelease)
 1. For Spreadsheet reports that pull log data from a local or network path, a "Log Location" field containing the passed in value has been added
