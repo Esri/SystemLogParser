@@ -21,7 +21,7 @@ Microsoft IIS, Apache Tomcat, Amazon ELB/ALB, Amazon CloudFront and Microsoft Az
 
 #### System Requirements
  - 64bit Windows Operating System:
-	- Windows (Workstation): 7, 8*, 8.1**, 10**
+	- Windows (Workstation): 7, 8*, 8.1**, 10**, 11**
 	- Windows (Server): 2008, 2012, 2016, 2019, 2022
  - Processor: AMD64/Intel64
  - RAM: 8GB
