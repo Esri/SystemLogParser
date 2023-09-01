@@ -1,6 +1,6 @@
 # System Log Parser
-## Version 0.12.24.0
-### Date: 2023/05/17
+## Version 0.12.25.0
+### Date: 2023/09/01
 
 -------------------------------
 ### Download Latest Release
@@ -57,6 +57,27 @@ Microsoft IIS, Apache Tomcat, Amazon ELB/ALB, Amazon CloudFront and Microsoft Az
 -------------------------------
 
 ##### CHANGELOG
+
+Build 0.12.25.0 (Prerelease)
+1. Fixed an issue where requests for Linear Referencing services would have their Capability set as MapServer instead of LRServer
+2. Added support to pickup the WPSServer service capability so the report can group accordingly for improved analysis
+3. Fixed an issue where Wait Timeouts could get counted as an elapsed time for ArcGIS reports with an Analysis Type of: Simple, WithOverviewCharts and Complete
+4. Fixed an issue when running slp.exe that was preventing the command-line option of "-validate" to be true by default; setting "-validate true" is necessary to see console messages printed to the screen
+5. Added some more throughput initialization to the ArcGIS Site object to help prevent the Provider summary in the ServiceDetails report from being empty
+6. Removed the Cloud Front screen from the System Log Parser GUI; cloudfront can still be selected from the command-line (e.g., slp.exe)
+7. Added an Application Log Level option to the ArcGIS Server (Web) screen; this provides the same capability as using "-apploglevel" from the command-line; this only creates a log for ArcGIS Server (web) log queries
+8. Removed the sanity check for End and Start times when selecting an Analysis Type of ServiceDetails; The ServiceDetails report does not make use of End or Start times
+9. Removed the "System Log Parser Installation Guide.docx" from the zip file; this doc was outdated and from an older release of System Log Parser
+10. In the GUI, the label of "Elapsed Time Minimum" has been changed to "Elapsed Time Minimum (Complete Analysis Only)" for clarity
+11. Enhanced the optional regular expression pattern to search against the source and operation fields; previous releases only search the source field (e.g., the resource or service name)
+12. Fixed an issue where using a regular expression for a ArcGIS Server (FS) log query could cause System Log Parser to crash
+13. For WithOverviewCharts, Complete and Optimized reports, a Wait Pct column has been added to the "Wait Time (Queue Time)" worksheet
+14. Fixed an issue with Optimized reports, where the Service Requests count could be listed as 0 
+15. For ArcGIS Server Web log queries using an Optimized report, the Server Version and Server LogLevel fields were added to the Summary page
+16. For Optimized, Simple, WithOverviewCharts and Complete (spreadsheet) reports, the Max column has been moved immediately after the Min column for "Statistics By Resource", "Statistics By User", "Wait Time (Queue Time)" and "Instance Creation Time" worksheets
+17. Fixed an issue that would leave the "Arrival Rate Per Service" worksheet blank for Optimized reports using an ArcGIS Server log queries
+18. Removed the "Server LogLevel (FileAge)" properties listing for spreadsheet reports generated through ArcGIS Server (FS) log queries
+19. Enhanced some of the internal reporting of the ArcGIS Site object's contents
 
 Build 0.12.24.0 (Prerelease)
 1. For (Analysis Type) Complete reports, the Path column has been added to the table on the "Elapsed Time - All Resources" worksheet
