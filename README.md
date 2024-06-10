@@ -1,6 +1,6 @@
 # System Log Parser
-## Version 0.12.25.0
-### Date: 2023/09/01
+## Version 0.12.25.3
+### Date: 2024/06/10
 
 -------------------------------
 ### Download Latest Release
@@ -34,7 +34,7 @@ Microsoft IIS, Apache Tomcat, Amazon ELB/ALB, Amazon CloudFront and Microsoft Az
  - If performing Web (IIS) log analysis, it is recommended to have the Log File Rollover Schedule set to Hourly or Daily (from the Internet Information Services Manager)
 
 - *If using Windows 8, .NET Framework 3.5 (in addition to 4.8) must be enabled per Microsoft documentation
-- **If using Windows 8.1 or Windows 10, .NET Framework 3.5 (in addition to 4.8) must be enabled per Microsoft documentation
+- **If using Windows 8.1 or greater, the .NET Framework 3.5 (in addition to 4.8) must be enabled per Microsoft documentation
 - ***Not relevant if logs are consumed directly from the file system (e.g. reading the local disk or via CIFS share)
 
 #### System Recommendations:
@@ -58,6 +58,21 @@ Microsoft IIS, Apache Tomcat, Amazon ELB/ALB, Amazon CloudFront and Microsoft Az
 
 ##### CHANGELOG
 
+Build 0.12.25.3 (Prerelease)
+1. Corrections on the internal SymbolServer support
+2. Some additional debug log verbosity
+
+Build 0.12.25.2 (Prerelease)
+1. More checks for the service provider and configured state properties
+2. The internal System Log Parser default configured state for a service is now "STOPPED"
+3. For a ServiceDetails Analysis Type report (txt, json, excel), the Platform property has been removed from the Site Details worksheet to remove any potential ambiguity from the OS property
+4. For a ServiceDetails Analysis Type report (txt, json, excel), the OS machine property is now listed immediately after Machine Name
+5. In cases where the application debug log is enabled, the .NET Framework version is now listed
+6. The Service Provider Stats table for ServiceDetails Analysis Type reports are now derived using an iterative summary approach
+
+Build 0.12.25.1 (Prerelease)
+1. Added some checks to better ensure the proper presentation of the Service Provider Stats table data when a ServiceDetails Analysis Type report is generated
+   
 Build 0.12.25.0 (Prerelease)
 1. Fixed an issue where requests for Linear Referencing services would have their Capability set as MapServer instead of LRServer
 2. Added support to pickup the WPSServer service capability so the report can group accordingly for improved analysis
