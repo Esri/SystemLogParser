@@ -62,8 +62,8 @@ System Log Parser is released under: CC BY-NC-SA 4.0
 - [https://creativecommons.org/licenses/by-nc-sa/4.0/](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 - [https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en)
 
-![CC BY-NC-SA 4.0](/assets/images/by-nc-sa.png =202x71) 
 
+<img src="/assets/images/by-nc-sa.png" width="202" height="1">
 
 ##### CHANGELOG
 
