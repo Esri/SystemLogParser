@@ -7,8 +7,8 @@
 [**System Log Parser Download**](../../raw/main/binaries/latest/SystemLogParser.zip)
 
 ![System Log Parser GUI](/assets/images/SystemLogsGUI_ArcGISServer_web_small.png)
--------------------------------
 
+-------------------------------
 #### Description 
 System Log Parser is an ArcGIS for Server (10.1+) log query and analyzer tool to
 help you quickly quantify the GIS usage in your deployment.
@@ -54,21 +54,21 @@ Microsoft IIS, Apache Tomcat, Amazon ELB/ALB, Amazon CloudFront and Microsoft Az
 - [System Log Parser - Statistics and Service Optimization](https://community.esri.com/t5/implementing-arcgis-blog/system-log-parser-statistics-and-service/ba-p/886389)
 - [ArcGIS Server Tuning and Optimization with System Log Parser
 ](https://community.esri.com/t5/implementing-arcgis-blog/arcgis-server-tuning-and-optimization-with-system/ba-p/886361)
--------------------------------
 
+-------------------------------
 ##### License
 
 System Log Parser is released under: CC BY-NC-SA 4.0
 - [https://creativecommons.org/licenses/by-nc-sa/4.0/](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 - [https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en)
 <img src="/assets/images/by-nc-sa.png" width="202" height="71">
--------------------------------
 
+-------------------------------
 ##### Support Status
 
 System Log Parser is not a supported tool
--------------------------------
 
+-------------------------------
 ##### CHANGELOG
 
 Build 0.13.0.0
