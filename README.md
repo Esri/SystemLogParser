@@ -88,5 +88,4 @@ System Log Parser is not a supported tool
 
 -------------------------------
 ##### ChangeLog
-https://github.com/ArcGIS/SystemLogParser/blob/main/CHANGELOG.md
-[ChangeLog details available here](https://github.com/ArcGIS/SystemLogParser/blob/main/CHANGELOG.md)
+[ChangeLog details](https://github.com/ArcGIS/SystemLogParser/blob/main/CHANGELOG.md)
