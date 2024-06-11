@@ -48,9 +48,10 @@ Microsoft IIS, Apache Tomcat, Amazon ELB/ALB, Amazon CloudFront and Microsoft Az
 
 -------------------------------
 #### How To Download System Log Parser
-Download the latest release here:
+- Download the latest release here:
 [**System Log Parser Download**](../../raw/main/binaries/latest/SystemLogParser.zip)
-and unzip it to your local workstation. System Log Parser does not include an installer.
+and unzip it to your local workstation
+- System Log Parser does not include an installer.
 
 -------------------------------
 #### How To Use System Log Parser
