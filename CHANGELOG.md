@@ -2,13 +2,18 @@
 
 ## CHANGELOG
 
+Build 0.13.0.1
+1. Removed support from System Log Parser for querying errors out of Portal for ArcGIS; this helps simplify the querying process as an error is returned if the Server Url is pointing to a Web Adaptor "portal" instance instead of a Web Adaptor "server" instance
+2. Removed the "System Log Parser Installation Guide.docx" from the zip file; this document had been removed at the start of the 0.12.25.x release
+3. ChangeLog correction, System Log Parser has been moved to: https://github.com/Esri/SystemLogParser
+   
 Build 0.13.0.0
 1. System Log Parser is now available under the Creative Commons CC BY-NC-SA license
 - https://creativecommons.org/licenses/by-nc-sa/4.0/
 - https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en
 - See License.txt
 2. System Log Parser is no longer Prerelease
-3. System Log Parser has been moved to: https://github.com/ArcGIS/SystemLogParser
+3. System Log Parser has been moved to: [https://github.com/ArcGIS/SystemLogParser](https://github.com/Esri/SystemLogParser)
    
 Build 0.12.25.3 (Prerelease)
 1. Corrections on the internal SymbolServer support
