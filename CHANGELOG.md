@@ -2,6 +2,15 @@
 
 ## CHANGELOG
 
+Build 0.13.1.0
+1. Added fix to safely remove the local binstore directory (temp folder) 
+2. Removed the VerboseMode mode report option from the GUI as some of its functionality was not being maintained
+3. Fixed an issue that prevented some error messages from being listed in the ErrorsOnly report
+4. After consideration, the "Server Timeout" and "Wait Time Expired" worksheets have been removed from the WithOverviewCharts report; this move helps simplify some of the internal parsing logic
+5. Added support for ArcGIS Server Info log entries (ArcGIS Server File System only); Info log entries breakdown the request performance at the framework-level and includes times for request that are not just for ArcSOC-based (e.g., hosted feature services); these performance times are close to response time (minus an Web-tier overhead and transport time overhead); captured times at this level may appear higher but the instance creation time, wait time and elapsed time are all included
+6. Adjusted the Optimized report now include the folder name which preceeds the service name under Resource/Source listings
+7. When generating a ServiceDetails report, JavaHeapSize is now listed; JavaHeapSize will display 64 (MB) unless a specific value is used to override the default setting; for more information see: https://enterprise.arcgis.com/en/server/10.8/publish-services/windows/geoprocessing-service-settings-advanced.htm
+
 Build 0.13.0.1
 1. Removed support from System Log Parser for querying errors out of Portal for ArcGIS; this helps simplify the querying process as an error is returned if the Server Url is pointing to a Web Adaptor "portal" instance instead of a Web Adaptor "server" instance
 2. Removed the "System Log Parser Installation Guide.docx" from the zip file; this document had been removed at the start of the 0.12.25.x release
