@@ -2,6 +2,13 @@
 
 ## CHANGELOG
 
+Build 0.13.3.0
+1. Removed the empty "Statistics By User" worksheet that was created with an Info report
+2. For Optimized reports using IIS or ArcGIS Server File System log sources, support has been added to the regular expression pattern to use multiple strings values; separate each value with a comma
+3. Added fix to ArcGIS Server File System log queries where the Regular Expression Pattern was being ignored for Simple, WithOverviewCharts or Complete reports
+4. Improved service Capability identification for hosted, feature and vectortile based services
+5. Optimized the method name representation for vectortile services (for the ArcGIS Server File System Info report)
+
 Build 0.13.2.0
 1. Added Resource statistics by user to the Optimized report; this shows up as the "Statistics By User" worksheet
 
