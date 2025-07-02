@@ -1,6 +1,6 @@
 # System Log Parser
-## Version 0.13.2.0
-### Date: 2025/01/06
+## Version 0.13.3.0
+### Date: 2025/07/02
 
 -------------------------------
 ### Download Latest Release
@@ -21,8 +21,8 @@ Microsoft IIS, Apache Tomcat, Amazon ELB/ALB, Amazon CloudFront and Microsoft Az
 
 #### System Requirements
  - 64bit Windows Operating System:
-	- Windows (Workstation): 7, 8*, 8.1**, 10**, 11**
-	- Windows (Server): 2008, 2012, 2016, 2019, 2022
+	- Windows (Workstation): 8*, 8.1**, 10**, 11**
+	- Windows (Server): 2016, 2019, 2022
  - Processor: AMD64/Intel64
  - RAM: 8GB
  - Disk Space: 2GB free when using the new Optimized Analysis Type 
