@@ -6,6 +6,8 @@
 ### Download Latest Release
 [**System Log Parser Download**](../../raw/main/binaries/latest/SystemLogParser.zip)
 
+[**System Log Parser Download**](../../raw/main/binaries/v0.13.4.0/SystemLogParser.zip)
+
 ![System Log Parser GUI](/assets/images/SystemLogsGUI_ArcGISServer_web_small.png)
 
 -------------------------------
