@@ -1,11 +1,9 @@
 # System Log Parser
-## Version 0.13.3.0
-### Date: 2025/07/02 
+## Version 0.13.4.0
+### Date: 2026/01/09
 
 -------------------------------
 ### Download Latest Release
-[**System Log Parser Download**](../../raw/main/binaries/latest/SystemLogParser.zip)
-
 [**System Log Parser Download**](../../raw/main/binaries/v0.13.4.0/SystemLogParser.zip)
 
 ![System Log Parser GUI](/assets/images/SystemLogsGUI_ArcGISServer_web_small.png)
@@ -24,7 +22,7 @@ Microsoft IIS, Apache Tomcat, Amazon ELB/ALB, Amazon CloudFront and Microsoft Az
 #### System Requirements
  - 64bit Windows Operating System:
 	- Windows (Workstation): 8*, 8.1**, 10**, 11**
-	- Windows (Server): 2016, 2019, 2022
+	- Windows (Server): 2016, 2019, 2022, 2025
  - Processor: AMD64/Intel64
  - RAM: 8GB
  - Disk Space: 2GB free when using the new Optimized Analysis Type 
