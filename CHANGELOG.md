@@ -2,6 +2,13 @@
 
 ## CHANGELOG
 
+Build 0.13.4.0
+1. Added internal reporting support for ParcelFabricServer
+2. Added function support to the Optimized report for IIS and ArcGIS Server log sources
+3. Added a "Capture" ability to the ArcGIS Server Web log query GUI
+4. Within the System Log Parser GUI, the default End Time value has been changed to Now and the default Start Time value has been changed to 1day
+5. System Log Parser now tries to recongnize the difference between REST and RESTAdmin capability requests
+   
 Build 0.13.3.0
 1. Removed the empty "Statistics By User" worksheet that was created with an Info report
 2. For Optimized reports using IIS or ArcGIS Server File System log sources, support has been added to the regular expression pattern to use multiple strings values; separate each value with a comma
