@@ -2,6 +2,12 @@
 
 ## CHANGELOG
 
+Build 0.13.5.0
+1. Changed the "Statistics By Function" worksheet to "Statistics By Method"
+2. Fixed issue where the "Statistics By User" worksheet would be added to the report even if the option was not selected
+3. Fixed reporting issue in the Statistics By Method worksheet where non-ArcGIS Enterprise calls (e.g., Capability=OtherRequests) to a function at the root of the server listed an empty value for Source; this fix is to represent the root as "/"
+4. Added a 6hr value in the GUI for the Start Time and End Time drop downs
+   
 Build 0.13.4.0
 1. Added internal reporting support for ParcelFabricServer
 2. Added function support to the Optimized report for IIS and ArcGIS Server log sources
