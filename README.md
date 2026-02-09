@@ -1,10 +1,10 @@
 # System Log Parser
-## Version 0.13.5.0
-### Date: 2026/01/27
+## Version 0.13.5.1
+### Date: 2026/02/09
 
 -------------------------------
 ### Download Latest Release
-[**System Log Parser Download**](../../raw/main/binaries/v0.13.5.0/SystemLogParser.zip)
+[**System Log Parser Download**](../../raw/main/binaries/v0.13.5.1/SystemLogParser.zip)
 
 ![System Log Parser GUI](/assets/images/SystemLogsGUI_ArcGISServer_web_small.png)
 
