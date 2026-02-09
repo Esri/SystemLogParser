@@ -2,6 +2,9 @@
 
 ## CHANGELOG
 
+Build 0.13.5.1
+1. Corrected an issue in the GUI with the "Start Capture" button (on the ArcGIS Server Log Query (Web) window), where it would still appear clickable while a report was being generated
+
 Build 0.13.5.0
 1. Changed the "Statistics By Function" worksheet to "Statistics By Method"
 2. Fixed issue where the "Statistics By User" worksheet would be added to the report even if the option was not selected
