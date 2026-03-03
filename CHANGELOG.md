@@ -2,6 +2,15 @@
 
 ## CHANGELOG
 
+Build 0.13.6.0
+1. For IIS and ArcGIS Server Web and File System Optimized reports, a "Request Counts By Resource" worksheet has been added to quickly summarize service request counts (e.g., for determining which services were active and how many requests they responded to)
+   This differs from other worksheets that show hits per service, as this new worksheet groups all capabilities together and providing one number for each resource
+   There are two service request count tables on this new worksheet:
+   - Resource Requests (method based requests)
+   - Resource Requests (method and service endpoint based requests) 
+   "Resource Requests (method based requests)": lists counts based on requests that used known service functions (similar totals to the Statistics By Method worksheet)
+   "Resource Requests (method and service endpoint based requests)": lists counts based on requests that used known services functions and requests to the REST service endpoints that typically pull metadata (similar totals to the Capability - Server worksheet)
+
 Build 0.13.5.1
 1. Corrected an issue in the GUI with the "Start Capture" button (on the ArcGIS Server Log Query (Web) window), where it would still appear clickable while a report was being generated
 
