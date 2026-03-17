@@ -74,7 +74,7 @@ Note: the ArcGIS Server LogLevel must be set to Fine when performing ArcGIS Serv
 - [System Log Parser - Statistics and Service Optimization](https://community.esri.com/t5/implementing-arcgis-blog/system-log-parser-statistics-and-service/ba-p/886389)
 - [ArcGIS Server Tuning and Optimization with System Log Parser
 ](https://community.esri.com/t5/implementing-arcgis-blog/arcgis-server-tuning-and-optimization-with-system/ba-p/886361)
-- [ArcGIS Enterprise: Performance Analysis of ArcGIS Enterprise Logs](https://community.esri.com/t5/implementing-arcgis-blog/arcgis-enterprise-performance-analysis-of-arcgis/ba-p/1683212)
+- [ArcGIS Enterprise: Performance Analysis of ArcGIS Enterprise Logs (Intermediate)](https://community.esri.com/t5/implementing-arcgis-blog/arcgis-enterprise-performance-analysis-of-arcgis/ba-p/1683212)
 
 -------------------------------
 ##### License
