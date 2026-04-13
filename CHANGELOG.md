@@ -2,6 +2,14 @@
 
 ## CHANGELOG
 
+Build 0.13.7.0
+1. For ErrorsOnly reports (ArcGIS Server Web and ArcGIS Server File System log sources), the method name has been added to the "Warnings and Errors" worksheet; additionally, the first and last datetime entry for each warning/error is listed
+2. Added the "Statistics By Method" and "Request Counts By Resource" worksheets to the Analysis Type Info Report (for ArcGIS Server File System log sources)
+3. For ArcGIS Server File System log queries (GUI), the "Add Statistics By User to Report" option is disabled if the selected Analysis Type is Info or ErrorsOnly
+4. For Analysis Type Info Reports (for ArcGIS Server File System log sources), the "Capabilities", "Capability", and "Request Throughput" worksheets have also been added
+5. Added some checks to the internal service-to-capability pairing that could get System Log Parser to crash under certain conditions 
+6. The System Log Parser help (from the GUI) in its current form is out of date and is considered deprecated; a revised help will be coming soon
+
 Build 0.13.6.0
 1. For IIS and ArcGIS Server Web and File System Optimized reports, a "Request Counts By Resource" worksheet has been added to quickly summarize service request counts (e.g., for determining which services were active and how many requests they responded to)
    This differs from other worksheets that show hits per service, as this new worksheet groups all capabilities together and providing one number for each resource
