@@ -1,10 +1,10 @@
 # System Log Parser
-## Version 0.13.7.0
-### Date: 2026/04/13
+## Version 0.14.0.0
+### Date: 2026/04/21
 
 -------------------------------
 ### Download Latest Release
-[**System Log Parser Download**](../../raw/main/binaries/v0.13.7.0/SystemLogParser.zip)
+[**System Log Parser Download**](../../raw/main/binaries/latest/SystemLogParser.zip)
 
 ![System Log Parser GUI](/assets/images/SystemLogsGUI_ArcGISServer_web_small.png)
 
@@ -78,9 +78,9 @@ Note: the ArcGIS Server LogLevel must be set to Fine when performing ArcGIS Serv
 
 -------------------------------
 ##### License
-System Log Parser is released under: CC BY-NC-SA 4.0
-- [https://creativecommons.org/licenses/by-nc-sa/4.0/](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-- [https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en)
+System Log Parser is released under: CC BY-SA 4.0
+- [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)
+- [https://creativecommons.org/licenses/by-sa/4.0/legalcode.en](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en)
 <img src="/assets/images/by-nc-sa.png" width="202" height="71">
 
 -------------------------------
