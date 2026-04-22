@@ -4,9 +4,9 @@
 
 Build 0.14.0.0
 1. System Log Parser is now available under the Creative Commons CC BY-SA license
-   https://creativecommons.org/licenses/by-sa/4.0/
-   https://creativecommons.org/licenses/by-sa/4.0/legalcode.en
-   See License.txt
+- https://creativecommons.org/licenses/by-sa/4.0/
+- https://creativecommons.org/licenses/by-sa/4.0/legalcode.en
+- See License.txt
 3. For the Optimized report, changed to the "Request Throughput" worksheet to "Request Throughput Tabular"
 4. For the Optimized report using ArcGIS Web, ArcGIS File System and IIS log sources, a new worksheet called "Request Throughput Visual" charts request throughput by day over last 30 days from the specified EndTime and also charts request throughput by hour for each of those days (over last 30 days); this worksheet is similar to the "Time" worksheet in the WithOverviewCharts Analysis Type report
 5. Fixed an issue with the Optimized report where some worksheets could cause System Log Parser to crash if the maximum number of rows exceeded 1,000,000
