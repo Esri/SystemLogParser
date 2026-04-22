@@ -81,6 +81,7 @@ Note: the ArcGIS Server LogLevel must be set to Fine when performing ArcGIS Serv
 System Log Parser (version 0.14.x.x) is now released under: CC BY-SA 4.0
 - [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)
 - [https://creativecommons.org/licenses/by-sa/4.0/legalcode.en](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en)
+<img src="/assets/images/CC_BY-SA_icon.svg" width="88" height="31">
 
 -------------------------------
 ##### Support Status
