@@ -2,6 +2,13 @@
 
 ## CHANGELOG
 
+Build 0.14.0.0
+1. System Log Parser is now available under the Creative Commons CC BY-SA license
+2. For the Optimized report, changed to the "Request Throughput" worksheet to "Request Throughput Tabular"
+3. For the Optimized report using ArcGIS Web, ArcGIS File System and IIS log sources, a new worksheet called "Request Throughput Visual" charts request throughput by day over last 30 days from the specified EndTime and also charts request throughput by hour for each of those days (over last 30 days); this worksheet is similar to the "Time" worksheet in the WithOverviewCharts Analysis Type report
+4. Fixed an issue with the Optimized report where some worksheets could cause System Log Parser to crash if the maximum number of rows exceeded 1,000,000
+5. For Optimized reports using ArcGIS Web or ArcGIS File System log sources, a bug was fixed that could prevent captured times from being internally stored in UTC; this could have impacted worksheets that listed values with respect to date and time
+   
 Build 0.13.7.0
 1. For ErrorsOnly reports (ArcGIS Server Web and ArcGIS Server File System log sources), the method name has been added to the "Warnings and Errors" worksheet; additionally, the first and last datetime entry for each warning/error is listed
 2. Added the "Statistics By Method" and "Request Counts By Resource" worksheets to the Analysis Type Info Report (for ArcGIS Server File System log sources)
