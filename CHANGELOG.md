@@ -2,6 +2,23 @@
 
 ## CHANGELOG
 
+Build 0.14.0.1
+1. Corrected a font size issue in the "Request Throughput Visual" worksheet where the Y-Axis and X-Axis labels appeared larger than the chart title
+2. Fixed an issue with the ErrorsOnly report (via ArcGIS Server File System) where System Log Parser could not read the logs if the initial entry was a multi-line item
+3. For ArcGIS Server log sources read from the file system, a very simple adjustment was put in place to read the services logs first, under the assumption it is more likely that a top level folder could contain the string "server" instead of "services"
+   Where Optimized, ErrorsOnly, Simple, WithOverviewCharts or Complete reports are created, if the path to the logs contains a parent folder with the name "server" or "services", System Log Parser may not be able to read all the logs   
+   System Log Parser expects the *only* folders called "server" and "services" to be in the directory containing info.log
+   The following examples would be okay:
+        C:\arcgisserver\logs\MYSERVER.MYDOMAIN.COM\server
+        C:\arcgisserver\logs\MYSERVER.MYDOMAIN.COM\services
+        or
+        \\myserver.mydomain.com\arcgisserver\logs\MYSERVER.MYDOMAIN.COM\server
+        \\myserver.mydomain.com\arcgisserver\logs\MYSERVER.MYDOMAIN.COM\services
+   If the log path contains a structure like the following:
+        C:\Program Files\ArcGIS\Server\usr\logs\MYSERVER.MYDOMAIN.COM\server
+        C:\Program Files\ArcGIS\Server\usr\logs\MYSERVER.MYDOMAIN.COM\services
+   System Log Parser may not be read all the logs properly
+   
 Build 0.14.0.0
 1. System Log Parser is now available under the Creative Commons CC BY-SA license
 - https://creativecommons.org/licenses/by-sa/4.0/
