@@ -1,6 +1,6 @@
 # System Log Parser
-## Version 0.14.0.0
-### Date: 2026/04/21
+## Version 0.14.0.1
+### Date: 2026/04/30
 
 -------------------------------
 ### Download Latest Release
