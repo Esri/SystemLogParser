@@ -64,7 +64,7 @@ The most common scenario for using System Log Parser is to point it at an ArcGIS
 - The log retrieval make take a few moments, depending on the size of the ArcGIS Server logs
 - The generated report can be used to help quantify the GIS usage of the Site by providing a breakdown of what services users are requesting and how long they are waiting for the response
 
-Note: the ArcGIS Server LogLevel must be set to Fine when performing ArcGIS Server (Web) analysis
+Note: the ArcGIS Server LogLevel must be set to Fine when performing ArcGIS Server (Web or File System) analysis
 
 -------------------------------
 #### Esri Community Articles on System Log Parser for Specific Scenarios
